@@ -1,9 +1,11 @@
 import css from "./App.module.scss";
+import HospLogo from "./HospLogo/HospLogo";
 
 function App() {
   return (
     <div className={css.app}>
       <header className={css.appHeader}>
+        <HospLogo />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
