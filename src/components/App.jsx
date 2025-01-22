@@ -6,9 +6,7 @@ function App() {
     <div className={css.app}>
       <header className={css.appHeader}>
         <HospLogo />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>Тяжело в лечении - легко в раю.</p>
         <a
           className={css.appLink}
           href="https://reactjs.org"
