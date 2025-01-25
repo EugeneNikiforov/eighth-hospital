@@ -1,7 +1,8 @@
-const NavItem = () => {
+const NavItem = ({ navitem }) => {
+  const { name } = navitem;
   return (
     <li>
-      <p>navItem</p>
+      <p>{name}</p>
     </li>
   );
 };

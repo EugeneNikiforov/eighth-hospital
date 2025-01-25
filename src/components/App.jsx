@@ -1,4 +1,5 @@
 import HospLogo from "./HospLogo/HospLogo";
+import navitems from "../data/nav-item.json";
 import NavPanel from "./NavPanel/NavPanel";
 import ContactList from "./ContactList/ContactList";
 import css from "./App.module.scss";
@@ -8,7 +9,7 @@ function App() {
     <div className={css.app}>
       <header className={css.appHeader}>
         <HospLogo />
-        <NavPanel />
+        <NavPanel items={navitems} />
         <ContactList />
         <p>Тяжело в лечении - легко в раю.</p>
         <a
