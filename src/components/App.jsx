@@ -2,6 +2,9 @@ import HospLogo from "./HospLogo/HospLogo";
 import navitems from "../data/nav-item.json";
 import NavPanel from "./NavPanel/NavPanel";
 import ContactList from "./ContactList/ContactList";
+import TitleSection from "./TitleSection/TitleSection";
+import DescSection from "./DescSection/DescSection";
+import Stats from "./Stats/Stats";
 import css from "./App.module.scss";
 
 function App() {
@@ -22,6 +25,11 @@ function App() {
           КМКЛ №8
         </a>
       </header>
+      <main>
+        <TitleSection />
+        <DescSection />
+        <Stats />
+      </main>
     </div>
   );
 }
