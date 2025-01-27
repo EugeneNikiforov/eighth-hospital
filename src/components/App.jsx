@@ -7,6 +7,8 @@ import DescSection from "./DescSection/DescSection";
 import Stats from "./Stats/Stats";
 import VideoSection from "./VideoSection/VideoSection";
 import Occupation from "./Occupation/Occupation";
+import VisitorFeed from "./VisitorFeed/VisitorFeed";
+import EventFeed from "./EventFeed/EventFeed";
 import css from "./App.module.scss";
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
         <Stats />
         <VideoSection />
         <Occupation />
+        <VisitorFeed />
+        <EventFeed />
       </main>
     </div>
   );
