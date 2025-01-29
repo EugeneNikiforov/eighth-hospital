@@ -1,5 +1,6 @@
 import React from "react";
 import NavItem from "./NavItem/NavItem";
+import css from "./nav-panel.module.scss";
 
 export default function NavPanel({ items }) {
   const navigationList = items.map((item) => (
@@ -8,7 +9,7 @@ export default function NavPanel({ items }) {
   return (
     <>
       <nav>
-        <ul>{navigationList}</ul>
+        <ul className={css.navigation}>{navigationList}</ul>
       </nav>
     </>
   );
