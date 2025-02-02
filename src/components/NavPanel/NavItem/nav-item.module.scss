@@ -1,0 +1,8 @@
+.navigationItem {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+}
